@@ -4,6 +4,7 @@ pipeline {
     stage('Start Server') {
       steps {
         sh '''npm install
+npm install nodemon
 npm run start'''
       }
     }
